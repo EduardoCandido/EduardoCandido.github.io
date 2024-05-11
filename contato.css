@@ -1,0 +1,27 @@
+/* Estilização da aba de contatos */
+form .input-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+form .input-area input, textarea {
+    border-color: #212F3D;
+    height: 26px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+button {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #196F3D;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #145A32;
+}
